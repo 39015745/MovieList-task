@@ -7,3 +7,5 @@ Kaip paleisti projekta:
 4. Atidaryti nauja terminala ir nueiti i frontend folderi
 5. Suinstaliuoti node packages: npm install
 6. ijungti frontend su: npm start
+
+Puslapis pasiekiamas per http://localhost:3000/
