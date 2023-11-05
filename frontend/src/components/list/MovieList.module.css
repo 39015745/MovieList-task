@@ -1,0 +1,93 @@
+.listLayout {
+	width: 40%;
+}
+
+.myClass {
+	overflow: auto;
+	border-radius: 10px;
+}
+.myClass table {
+	border: 1px solid #000000;
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 1px;
+}
+.myClass th {
+	font-size: 1.2rem;
+	border: 1px solid #000000;
+	background-color: #fca311;
+	color: #000000;
+	padding: 10px;
+}
+.myClass td {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 4px;
+	font-weight: 500;
+	text-align: center;
+	height: 3.9rem;
+}
+
+.title {
+	width: 25%;
+}
+
+.rating {
+	width: 10%;
+}
+
+.searchForm {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.searchForm input {
+	font-size: 1.5rem;
+	padding-left: 1rem;
+	width: 40%;
+	height: 3rem;
+	margin: 2rem 2rem;
+	border-radius: 10px;
+	color: #e5e5e5;
+	background-color: #14213d;
+	border: solid 1px #e5e5e5;
+}
+
+.searchForm input::placeholder {
+	color: #e5e5e5;
+}
+
+.searchForm select {
+	width: 25%;
+	padding-left: 1rem;
+	font-size: 1.5rem;
+	margin: 2rem 2rem;
+	border-radius: 10px;
+	color: #e5e5e5;
+	background-color: #14213d;
+	border: solid 1px #e5e5e5;
+}
+
+.searchForm option {
+	background-color: #14213d;
+	border-radius: 20px;
+}
+
+.pagination {
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.pagination span {
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 0 0.2rem;
+}
+
+.pagination span:hover {
+	cursor: pointer;
+}
